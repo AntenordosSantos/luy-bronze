@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&family=Rubik+Gemstones&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgb(234, 71, 147);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.logo {
+    opacity: 75%;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+    margin-left: 150px;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+    margin-right: 150px;
+
+}
+
+.botao {
+    font-family: Sarala;
+    color: #a20879;
+    font-weight: 40;
+    font-size: 18px;
+}
+
+.botao:hover {
+    color: rgb(225, 125, 238);
+    transition: 0.8s;
+}
+
+.principal {
+    border-top: 0.8px solid #a20879;
+    margin-bottom: 48px;
+}
+
+.sec-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.sec-principal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.titulo{
+    font-family: Dancing Script, regular;
+    font-weight: 400;
+    font-size: 150px;
+    color: #a20879;
+}
+
+.sec-principal-par {
+    font-family: Dancing Script, regular;
+    font-size: 30px;
+    margin-left: 250px;
+    color: #a20879;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin-top: 40px;
+}
+
+.item {
+    font-family: Sarala, regular;
+    font: 400;
+    font-weight: 100;
+}
+
+.imagem {
+    height: 450px;
+    border-radius: 50px;
+    opacity: 75%;
+    margin-right: 70px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+}
+
+.sec-seg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.sec-seg-titulo {
+    border-top: 0.8px solid #a20879;
+    padding-top: 48px;
+    font-family: Dancing Script;
+    font-weight: 400;
+    font-size: 50px;
+    color: #a20879;
+}
+
+.compra {
+    background-color: #89076d;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 24px;
+    color: #e61fb1;
+}
+
+.compra:hover {
+    background-color: rgb(225, 125, 238);
+    transition: 0.8s;
+}
+
+.sec-seg-p {
+    font-family: Sarala;
+    font-weight: 400;
+    font-size: 20px;
+    color:#a20879;
+}
+
+.pé {
+    font: italic;
+    text-align: center;
+    border-top: 0.4px solid #a20879;
+    padding: 18px;
+    color: #090407;
+}
